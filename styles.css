@@ -1,0 +1,58 @@
+body{
+  background-color: #da1717;
+}
+
+.container{
+  height: 260px;
+  width:200px;
+  border: 2px solid #fff59d;
+  position: relative;
+  top:115px;
+  left:380px;
+}
+
+#count-number{
+  color: #fff59d;
+  position: relative;
+  left: 80px;
+  top:-30px;
+  font-size: 80px;
+}
+
+#increase{
+  border-radius: 45%;
+  background-color: inherit;
+  border: 2px groove #fff59d;
+  cursor: pointer;
+  position: relative;
+  left: 135px;
+  top: -13px;
+}
+
+#increase:hover{
+   background-color: #fff59d;
+}
+
+#decrease{
+   border-radius: 45%;
+  background-color: inherit;
+  border: 2px groove #fff59d;
+  cursor: pointer;
+  position: relative;
+  left: -17px;
+  top: -13px;
+  
+}
+
+#decrease:hover{
+   background-color: #fff59d;
+}
+
+
+.material-icons{
+  color: #fff59d;
+}
+
+.material-icons:hover{
+  color:black;
+}
